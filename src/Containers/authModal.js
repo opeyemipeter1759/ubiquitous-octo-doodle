@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Modal = () => {
+const AuthModal = () => {
 	const [show, setShow] = useState(false);
 
 	const handleClose = () => setShow(false);
@@ -24,4 +24,4 @@ const Modal = () => {
 	);
 };
 
-export default Modal;
+export default AuthModal;
